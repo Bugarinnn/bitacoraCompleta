@@ -1,0 +1,359 @@
+*{
+    scroll-behavior: smooth;
+}
+
+section{
+    width: 1366;
+    height: 4000px;
+    background-color: white;   
+    margin: 0;
+}
+.cabeza{
+    width: 1366px;
+    height: 60;
+    background-color: white;
+    margin: 0;
+}
+
+.info{
+    width: 420px;
+    height: 400px;
+    background-color: white;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    font-size: large;
+    padding: 10px;
+
+    position: absolute;
+    top: -355px;
+    left: 1066px;
+    transition: 1s;
+}
+.info:hover{
+    top: 0px;
+}
+.info p{
+    margin: 10px;
+}
+.info a{
+    color: rgb(27, 93, 101);
+    margin: 10px;
+    padding: 10px;
+}
+.unid{
+    width: 200px;
+    height: 100px;
+
+}
+.tema{
+    width: 200px;
+    height: 200px;
+    font-size: large;
+    float: left;
+}
+
+nav{
+    width: 1366px;
+    height: 60px;
+    background-color: rgb(36, 75, 140);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a{
+    color: white;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 24px;
+}
+nav a:hover{
+    height: 49px;
+    background-color: rgb(51, 84, 142);
+}
+
+.cuadro1{
+    width: 1366px;
+    height: 70px;
+    background-color:  rgb(23, 45, 83);
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    font-size: large;
+    border-radius: 15px;
+}
+
+.cuadro2{
+    width: 660px;
+    height: 240px;
+    background-color: rgb(133, 157, 198);
+    font-family: "Oswald", sans-serif;
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+}
+.cuadro22{
+    width: 660px;
+    height: 300px;
+    background-color: rgb(133, 157, 198);
+    font-family: "Oswald", sans-serif;
+    color: whitesmoke;
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+}
+.cuadro22222{
+    width: 660px;
+    height: 545px;
+    background-color: rgb(133, 157, 198);
+    font-family: "Oswald", sans-serif;
+    color: whitesmoke;
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+}
+.cuadro222222{
+    width: 660px;
+    height: 490px;
+    background-color: rgb(133, 157, 198);
+    font-family: "Oswald", sans-serif;
+    color: whitesmoke;
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.cuadro33{
+    width: 660px;
+    height: 510px;
+    background-color: rgb(87, 121, 179);
+    font-family: "Oswald", sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    padding: 10px;
+    border-radius: 15px;
+
+    top: 248px;
+    left: 705px;
+}
+.cuadro3{
+    width: 660px;
+    height: 240px;
+    background-color:  rgb(87, 121, 179);
+    font-family: "Oswald", sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    padding: 10px;
+    border-radius: 15px;
+
+    top: 901px;
+    left: 710px;
+}
+.cuadro333{
+    width: 660px;
+    height: 240px;
+    background-color:  rgb(87, 121, 179);
+    font-family: "Oswald", sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    padding: 10px;
+    border-radius: 15px;
+
+    top: 1465px;
+    left: 705px;
+}
+.cuadro3333{
+    width: 660px;
+    height: 240px;
+    background-color:  rgb(87, 121, 179);
+    font-family: "Oswald", sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    padding: 10px;
+    border-radius: 15px;
+
+    top: 2030px;
+    left: 705px;
+}
+.cuadro33333{
+    width: 660px;
+    height: 760px;
+    background-color:  rgb(87, 121, 179);
+    font-family: "Oswald", sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    padding: 10px;
+    border-radius: 15px;
+
+    top: 2595px;
+    left: 705px;
+}
+.cuadro333333{
+    width: 660px;
+    height: 700px;
+    background-color:  rgb(87, 121, 179);
+    font-family: "Oswald", sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    padding: 10px;
+    border-radius: 15px;
+
+    top: 3495px;
+    left: 705px;
+}
+
+.cuadro44{
+    width: 660px;
+    height: 175px;
+    background-color: rgb(58, 80, 117);
+    font-family: "Oswald", sans-serif;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+}
+.cuadro4{
+    width: 1366px;
+    height: 150px;
+    background-color: rgb(58, 80, 117);
+    font-family: "Oswald", sans-serif;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.info22{
+    width: 620px;
+    height: 185px;
+    background-color: whitesmoke;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+    border-radius: 10px;
+}
+.info2{
+    width: 620px;
+    height: 125px;
+    background-color: whitesmoke;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+    border-radius: 10px;
+}
+.info22222{
+    width: 620px;
+    height: 432px;
+    background-color: whitesmoke;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+    border-radius: 10px;
+}
+.info222222{
+    width: 620px;
+    height: 376px;
+    background-color: whitesmoke;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    padding: 20px;
+    font-size: medium;
+    border-radius: 10px;
+}
+
+.info33{
+    width: 620px;
+    height: 55px;
+    background-color: whitesmoke;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+    border-radius: 10px;
+}
+.info3{
+    width: 620px;
+    height: 125px;
+    background-color: whitesmoke;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+    border-radius: 10px;
+}
+.info33333{
+    width: 620px;
+    height: 295px;
+    background-color: whitesmoke;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    padding: 20px;
+    font-size: medium;
+    border-radius: 10px;
+}
+
+.info44{
+    width: 620px;
+    height: 61px;
+    background-color: whitesmoke;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+    border-radius: 10px;
+}
+.info4{
+    width: 1326px;
+    height: 35px;
+    background-color: whitesmoke;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.img{
+    width: 620px;
+    height: 303px;
+    background-color: whitesmoke;
+    padding: 10px;
+    align-content: center;
+    border-radius: 10px;
+}
+.img2{
+    width: 620px;
+    height: 490px;
+    background-color: whitesmoke;
+    padding: 10px;
+    align-content: center;
+    border-radius: 10px;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+.va{
+    width: 150px;
+    height: 50px;
+    background-color:  rgb(36, 75, 140);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+
+    position: fixed;
+    top: 700px;
+    left: 1200px;
+}

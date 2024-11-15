@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo2u.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="cabeza">
+                <img src="imagenes/logo.png" alt="Logo escuela" height="60px">
+            </div>
+            <nav>
+                <a href="#posi">Positions</a>
+                <a href="#dis">Display</a>
+                <a href="#anim">Animations</a>
+                <a href="#propcs3">Propiedades CSS3</a>
+                <a href="#ref">Ref. Avanzadas</a>
+            </nav>
+        </header>
+        <br>
+        <section>
+
+            <div class="cuadro1">
+                <h1 id="posi">POSITIONS</h1>
+            </div>
+            <br>
+            <div class="cuadro22">
+                <h2>IDEAS GENERALES</h2>
+                <div class="info22">
+                    <p>Las propiedades position se usan para controlar cómo se posicionan los elementos en una página
+                        web. Cada uno de estos valores permite controlar mejor el diseño y la disposición de los
+                        elementos en la página web.
+                    </p>
+                    <ul>
+                        <li>static: Es el valor predeterminado. El elemento se posiciona de acuerdo con el flujo normal
+                            del documento. No se puede modificar con las propiedades top, right, bottom o left.</li>
+                        <li>relative: El elemento se posiciona en relación con su posición original. Puedes moverlo
+                            usando top, right, bottom o left, pero el espacio original del elemento permanece reservado.
+                        </li>
+                        <li>absolute: El elemento se posiciona en relación con su contenedor más cercano que tenga
+                            position: relative, absolute o fixed. Se puede mover libremente usando top, right, bottom, o
+                            left, y no ocupa espacio en el flujo normal del documento.</li>
+                        <li>fixed El elemento se posiciona en relación con la ventana del navegador. Permanece fijo en
+                            la pantalla incluso cuando haces scroll en la página.</li>
+                        <li>sticky: Es una mezcla entre relative y fixed. El elemento se comporta de manera relativa
+                            hasta que se alcanza un valor de scroll, luego se "pega" en su lugar como un elemento fixed.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cuadro33">
+                <h2>APUNTES</h2>
+                <div class="info33">
+                    <p>Puede mover el div/cuadro, dependiendo del position el espacio de uno podra seguir siendo
+                        respetado o no, algunos se sobre ponen sobre otros tmb.</p>
+                    <img src="imagenes/positions.png" alt="marianagrandeposisiones" width="450px">
+                </div>
+            </div>
+            <br>
+            <div class="cuadro4">
+                <h2>RESUMEN</h2>
+                <div class="info4">
+                    <p>Te permite mover los cuadros de texto de forma independiente y si estos interactuan con otros o
+                        no.</p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="cuadro1">
+                <h1 id="dis">DISPLAY</h1>
+            </div>
+            <br>
+            <div class="cuadro22">
+                <h2>IDEAS GENERALES</h2>
+                <div class="info22">
+                    <p>La propiedad display define cómo se debe mostrar un elemento en la página web, afectando su
+                        comportamiento y disposición dentro del documento, controla la disposición de los elementos en
+                        la página y establecer cómo interactúan con los demás.
+                    </p>
+                    <ul>
+                        <li>block: El elemento se comporta como un bloque. Ocupa todo el ancho disponible. Se coloca por
+                            debajo de otros elementos, generando un salto de línea.</li>
+                        <li>inline: El elemento se comporta como un elemento en línea (ej. span>, a>, strong>). No ocupa
+                            todo el ancho disponible, solo el necesario para su contenido. No genera un salto de línea.
+                        </li>
+                        <li>inline-block: Combina las características de inline y block. El elemento se comporta como
+                            inline (no genera salto de línea) pero puedes asignarle un ancho y alto específicos como a
+                            un block.</li>
+                        <li>none: El elemento no se muestra en la página y no ocupa ningún espacio.</li>
+                        <li>flex: Convierte un contenedor en un contenedor flexible. Sus elementos hijos se colocan en
+                            línea o en columna, y se ajustan automáticamente dentro del contenedor. Muy útil para crear
+                            diseños adaptativos y alineaciones complejas.</li>
+                        <li>grid: Define un contenedor de cuadrícula donde los elementos hijos se organizan en filas y
+                            columnas. Facilita la creación de layouts más estructurados.</li>
+                        <li>table: Hace que el elemento se comporte como una tabla HTML, utilizando las reglas de
+                            disposición de las tablas.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cuadro3">
+                <h2>APUNTES</h2>
+                <div class="info3">
+                    <img src="imagenes/display.png" alt="diplaygoogle" width="400px">
+                </div>
+            </div>
+            <br>
+            <div class="cuadro4">
+                <h2>RESUMEN</h2>
+                <div class="info4">
+                    <p>Especifica si un elemento es tratado como block or inline element y el diseño usado por sus
+                        hijos, como flow layout(Diseño de Flujo), grid(Cuadricula) o flex(Flexible)</p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="cuadro1">
+                <h1 id="anim">ANIMACION</h1>
+            </div>
+            <br>
+            <div class="cuadro2">
+                <h2>IDEAS GENERALES</h2>
+                <div class="info2">
+                    <p>La animación en CSS te permite cambiar progresivamente el estilo de un elemento a lo largo del
+                        tiempo. Esto incluye propiedades como el tamaño, el color, la opacidad, la posición, etc. Las
+                        animaciones CSS son muy útiles para mejorar la experiencia del usuario al agregar
+                        transiciones fluidas entre estados. Para que una animación funciones es necesario vincularla
+                        primero a un elemento.
+                    </p>
+                    <ul>
+                        <li>animation-duration: Especifica el tiempo de duración de la animación, sin este no se
+                            aplicara la animación. Se puede especificar cuando cambiara usando “to (0% inicio)” y “from
+                            (100% completo)”.</li>
+                        <li>animation-interation-count: Especifica el numero de veces que se repetirá una animación, tmb
+                            puede ser infinito.</li>
+                        <li>animation-delay: Especifica el retraso para el inicio de una animación.</li>
+                        <li>animation-play-state: especifica si la animación se esta ejecutando (running) o si esta em
+                            pausa (paused).</li>
+                    </ul>
+                    <p>Animation-timing-function: Especifica la curva de velocidad de la animación</p>
+                    <ul>
+                        <li>linear: Animación con la misma velocidad de inicio a fin</li>
+                        <li>ease: Animación de inicio lento, medio rápido y final lento.</li>
+                        <li>ease-in: Animación de inicio lento solamente.</li>
+                        <li>esase-out: Animación de final lento.</li>
+                        <li>ease-in-out: Animacion de inicio y final lento.</li>
+                        <li>cubic-beizer: Permite determinar valores propios (n, n, n, n)</li>
+                    </ul>
+                    <p>Animation-direction: Especifica si una animación debe reproducirse hacia adelante, hacia atrás o
+                        en ciclos.
+                    </p>
+                    <ul>
+                        <li>normal: Viene predeterminado y manda a la animación hacia adelante.</li>
+                        <li>reverse: Reproduce de la animación en dirección inversa.</li>
+                        <li>alternate: Reproduce la animación hacia adelante y luego hacia atrás.</li>
+                        <li>alternate-reverse: Reproduce la animación hacia atrás y luego hacia adelante.</li>
+                    </ul>
+                    <p>Animation fill mode: Especifica un estilo para el elemento cuando la animación no se está
+                        reproduciendo.</p>
+                    <ul>
+                        <li>none: Viene predeterminado, la animación no aplicara un estilo aantes o después de
+                            ejecutarlo.</li>
+                        <li>forwards: El elemento tendrá los valores de estilo establecido por el ultimo fotograma
+                            clave.</li>
+                        <li>backwards: El elemento tendrá los valores de estilo establecido por el primer fotograma
+                            clave.</li>
+                        <li>both: La animación seguirá las reglas para adelante como para atrás.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cuadro333">
+                <h2>APUNTES</h2>
+                <div class="info333">
+                    <img src="imagenes/col.png" alt="ejemplodelprofe" height="400px">
+                    <hr>
+                    <img src="imagenes/neg.png" alt="segundoejemplodelprofe" height="350px">
+                </div>
+            </div>
+            <br>
+            <div class="cuadro4">
+                <h2>RESUMEN</h2>
+                <div class="info4">
+                    <p>Te permite animar los cuadros de texto ya sea en vertical, horizontal o en otras formas crativas.
+                    </p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="cuadro1">
+                <h1 id="propcs3">PROPIEDADES CSS3</h1>
+            </div>
+            <br>
+            <div class="cuadro2222">
+                <h2>IDEAS GENERALES</h2>
+                <div class="info2222">
+                    <p>Para alguna propiedades se deben de usar prefijos como -moz, -o y -webkit para que funciones en
+                        distintos navegadores.
+                    </p>
+                    <ul>
+                        <li>border radius: Genera esquinas redondeadas para el elemento caja. Posee dos parámetros los
+                            cuales son vertical y horizontal. (Los valores deben ser separados por una barra)</li>
+                        <li>box Shadow: Crea sombras para el elemento caja. Puede tomar hasta 5 parametros para generar
+                            una sombra interna. Los desplazamientos pueden ser negativos. Los valores Iluminacion e
+                            inste son opcionales.</li>
+                        <li>text Shadow: Similar al box-shadow pero para textos. Los parámetros que toma son el color,
+                            desplazamiento horizontal o vertical y defuminacion.</li>
+                        <li>@fontface: Permite recargar y usar cualquier fuente que integremos. Se le proveer nombra con
+                            Font-family.</li>
+                        <li>linear-gradient: El punto de inicio determina el angulo en el que se realiza el degradado.
+                            Se pueden implementar múltiples colores.</li>
+                        <li>border Image: Genera esquinas redondeadas para el elemento caja. Se declara previamente con
+                            border o border-with. Toma como parámetros la url, tamaño de imagen y una palabra clave.
+                        </li>
+                        <li>transitions: Transición entre dos estados de un elemento. Toma como parámetros la propiedad
+                            afectada, tiempo de duración, palabra clave y un valor de retardo.</li>
+                        <li>transform: Rotate para rotar el elemento en grados. Skew para tirar un elemento en dos
+                            grados. Translate mueve un objeto tanto como sus parámetros le indiquen. Scale para
+                            expandeiro disminuir un elemento.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cuadro3333">
+                <h2>APUNTES</h2>
+                <div class="info3333">
+                    <p>En CSS, las propiedades personalizadas (también conocidas como variables) son entidades definidas
+                        por autores de CSS que contienen valores específicos que se pueden volver a utilizar en un
+                        documento.</p>
+                </div>
+            </div>
+            <br>
+            <div class="cuadro4">
+                <h2>RESUMEN</h2>
+                <div class="info4">
+                    <p>Son entidades definidas por autores de CSS que contienen valores específicos que se pueden volver a utilizar en un
+                        documento.</p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="cuadro1">
+                <h1 id="ref">REFERENCIAS AVANZADAS</h1>
+            </div>
+            <br>
+            <div class="cuadro2222">
+                <h2>IDEAS GENERALES</h2>
+                <div class="info2222">
+                    <ul>
+                        <li>:nth-child(odd) inth-child (even): Las palabras clave odd y even se utilizan para
+                            seleccionar elementos con base en su posición en la secuencia de hijos, específicamente para
+                            alternar entre elementos impares y pares.</li>
+                        <li>:first-child: Existen otras importantes pseudoclases relacionadas con esta última. La
+                            pseudoclase first-child referencia solo el primer hijo.. Estas pseudoclases en particular no
+                            requieren palabras clave o parámetros.</li>
+                        <li>:last-child: La pseudoclase last-child reterencia solo el último hijo. Estas pseudoclases en
+                            particular no requieren palabras clave o parametros.</li>
+                        <li>:not(): La pseudoclase not() nos permite declarar una excepción. Los estilos en la regla
+                            creada con esta pseudoclase serán asignados a todo elemento excepto aquellos incluidos en la
+                            referencia entre paréntesis. En lugar de la palabra clave de un elemento podemos usar
+                            cualquier otra referencia que deseemos.</li>
+                    </ul>
+                    <h3>Selector de atributo:</h3>
+                    <p>Un selector de atributo en CSS selecciona elementos HTML en función de la presencia o el valor de
+                        uno de sus atributos. Esto permite aplicar estilos a los elementos que tienen un atributo
+                        específico, o cuyo atributo tiene un valor determinado.</p>
+                    <ul>
+                        <li>[atributo^="inicio"]: Una regla con el selector (^=) selecciona elementos cuyo atributo
+                            comienza con un valor específico.</li>
+                        <li>[atributo$="final"]: Una regla con el selector ($=) selecciona elementos cuyo atributo
+                            termina con un valor específico.</li>
+                        <li>[atributo*="cadena"]: Una regla con el selector (*=) selecciona elementos cuyo atributo
+                            contiene una cadena específica en cualquier posición.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cuadro33333">
+                <h2>APUNTES</h2>
+                <div class="info3333">
+                    <p>Te permite resaltar la un renglon en particular (dependiendo el codigo)</p>
+                </div>
+            </div>
+            <br>
+            <div class="cuadro4">
+                <h2>RESUMEN</h2>
+                <div class="info4">
+                    <p>Te permite resaltar la un renglon en particular (dependiendo el codigo)</p>
+                </div>
+            </div>
+
+            <div class="info">
+                <br>
+                <br>
+                <div class="unid">
+                    <a href="index.html">Unidad 1</a><br>
+                    <a href="index2u.html">Unidad 2</a><br>
+                    <a href="index3u.html">Unidad 3</a>
+                </div>
+                <br>
+                <div class="tema">
+                    <a href="#posi">Positions</a>
+                    <a href="#dis">Display</a>
+                    <a href="#anim">Animations</a>
+                    <a href="#propcs3">Propiedades CSS3</a>
+                    <a href="#ref">Ref. Avanzadas</a>
+                </div>
+                <br>
+                <img src="imagenes/menu.png" alt="menu" height="30px">
+            </div>
+
+            <div class="va">
+                <a href="#top">Volver arriba</a>
+            </div>
+
+        </section>
+    </main>
+</body>
